@@ -64,7 +64,7 @@
         NSString *version = resultsDic[@"version"];
         
         // 应用名称
-        NSString *trackCensoredName = resultsDic[@"trackCensoredName"];
+        NSString *trackCensoredName = resultsDic[@"trackName"];
         
         // 下载地址
         NSString *trackViewUrl = resultsDic[@"trackViewUrl"];
