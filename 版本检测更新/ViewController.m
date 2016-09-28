@@ -102,10 +102,11 @@
     // MARK: 比较方法
     if ([appVersion compare:serverVersion options:NSNumericSearch] == NSOrderedAscending) {
         NSLog(@"发现新版本 %@", serverVersion);
+        return YES;
     }else{
         NSLog(@"没有新版本");
+        return NO;
     }
-    return YES;
 }
 
 - (void)didReceiveMemoryWarning {
